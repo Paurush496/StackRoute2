@@ -9,7 +9,6 @@ body, html {
 	.container-1 {
 	display: flex;
 	border: 0.1vw grey solid;
-	align-items: space-around;
 	background-color: #0A344D;
 	flex-direction: column;
 	position: fixed;
@@ -85,7 +84,7 @@ ul a:hover{
 	padding-top: 25vw;
 }
 
-.hero-text {
+#hero-text {
 	text-align: center;
 	font-family: 'Crete Round', serif;
 	position: absolute;
@@ -102,12 +101,20 @@ ul a:hover{
 	color: #5a5050;
 }
 
+blockquote {
+	font-size: 2.5vw;
+}
+
+button {
+	font-size: 1vw;
+}
+
 .container-2, .container-3 {
 	display: flex;
 	justify-content: center;
 }
 
-.container-2 content, .container-3 content {
+.container-2 section, .container-3 section {
 	flex: 1;
 	color: white;
 	text-align: center;
@@ -130,7 +137,7 @@ ul a:hover{
 	background-color: #5E4796;
 }
 
-.container-4 content {
-	font-size: 5vw;
+.container-4 section {
+	font-size: 4.5vw;
 	color: #f7e249;
 }
