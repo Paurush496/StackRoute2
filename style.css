@@ -10,9 +10,11 @@ body, html {
 	display: flex;
 	border: 0.1vw grey solid;
 	align-items: space-around;
-	background-color: #e2bfbf;
+	background-color: #0A344D;
 	flex-direction: column;
 	position: fixed;
+	z-index: 1;
+	width: 100%;
 		}
 
 	.container-1 li {
@@ -34,41 +36,41 @@ body, html {
 	display: flex;
 	border: 0.1vw grey solid;
 	align-items: center;
-	background-color: #e2bfbf;
+	background-color: #0A344D;
+	z-index: 1;
+	width: 100%;
 }
 
-.logo {
+.container-1 img {
 	flex: 1;
 	height: 8vw;
 	shape-rendering: optimizeSpeed;
 }
 
-.Main {
+.container-1 h1 {
 	flex: 7;
 	margin: 0;
 	font-size: 4vw;
-	font-family: 'Crete Round', serif;	
+	font-family: 'Crete Round', serif;
+	color: #cdc4cc;	
 }
 
-.tab {
+.container-1 li {
 	flex: 1;
 	border: 0.1vw black;
-}
-	
-li {
 	display: inline;
 	padding-right: 5vw;
 	font-size: 2vw;
 }
-
+	
 ul a {
 	text-decoration: none;
-	color: #5d0c0c;
+	color: #c8dca0;
 }
 
 ul a:hover{
-	text-shadow: 0.2vw 0.2vw 0.4vw red;
-	color: black;
+	text-shadow: 0.2vw 0.2vw 0.4vw #f694c1;
+	color: #ddf3db;
 }
 
 .hero-image {
@@ -83,8 +85,9 @@ ul a:hover{
 	padding-top: 25vw;
 }
 
-#hero-text {
+.hero-text {
 	text-align: center;
+	font-family: 'Crete Round', serif;
 	position: absolute;
 	top: 55%;
 	left: 50%;
@@ -92,19 +95,22 @@ ul a:hover{
 	color: white;
 }
 
+.sport {
+	text-align: center; 
+	position: relative; 
+	top: 1vw;
+	color: #5a5050;
+}
+
 .container-2, .container-3 {
 	display: flex;
-	kjustify-content: center;
-	kalign-items: center;
+	justify-content: center;
 }
 
 .container-2 content, .container-3 content {
-	kborder: 0.5vw #ccc solid;
 	flex: 1;
-	kbackground-color: yellow;
-	text-align: center;
 	color: white;
-	kheight: 100vw;
+	text-align: center;
 }
 
 .cricket, .football, .vollyball, .hockey, .badminton, .basketball {
@@ -113,39 +119,18 @@ ul a:hover{
 	background-size: cover;
 	height: 30vw;
 	margin-right: 1vw;
-	margin-bottom: 1vw;	
+	margin-bottom: 1vw; 	
 }
 
 .container-4 {
 	display: flex;
+	align-items: center; 
 	justify-content: center;
-	kalign-items: space-around;
-	kalign-items: center;
-}
-
-#section-4 {
-	position: relative;
- 	top: 15%;
- 	left: 17%;
- 	font-size: 1.5vw;
- 	margin: 0;
-}
-
-.container-4 img {
-	height: 4vw;
-	width: 4vw;
-	position: relative;
-	top: 45%;
-	left: -10%;
-	padding-right: 5%;
-}
-
-footer {
-	height: 10vw;
+	flex-direction: column;
 	background-color: #5E4796;
 }
 
-
-
-
-
+.container-4 content {
+	font-size: 5vw;
+	color: #f7e249;
+}
