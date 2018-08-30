@@ -28,7 +28,7 @@ body, html {
 		display: flex;
 		flex-direction: column;
 	}
-
+	
 }
 
 .container-1 {
@@ -118,13 +118,14 @@ button {
 	flex: 1;
 	color: white;
 	text-align: center;
+	font-size: 1.5vw;
 }
 
 .cricket, .football, .vollyball, .hockey, .badminton, .basketball {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 30vw;
+	height: 32vw;
 	margin-right: 1vw;
 	margin-bottom: 1vw; 	
 }
